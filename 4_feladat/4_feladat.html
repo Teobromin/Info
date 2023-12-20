@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termékkezelő</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Termékkezelő</h1>
+<div>
+    <label for="productName">Termék neve:</label>
+    <input type="text" id="productName">
+    <label for="productPrice">Termék ára:</label>
+    <input type="number" id="productPrice">
+    <button onclick="addProduct()">Hozzáad</button>
+</div>
+<div id="productList">
+    <!-- Ide jönnek majd a termékek -->
+</div>
+<div>
+    <h2>Statisztika</h2>
+    <p>Legolcsóbb termék neve: <span id="cheapestProductName"></span></p>
+    <p>Átlagár: <span id="averagePrice"></span></p>
+    <p>Árak szórása: <span id="priceDeviation"></span></p>
+</div>
+
+<!-- Az új JavaScript fájl beolvasása -->
+<script src="script.js"></script>
+</body>
+</html>
