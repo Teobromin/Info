@@ -1,0 +1,87 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background-color: #721616; /* Világosabb bordó háttér */
+        color: #fae6d7; /* Vajszínű szöveg */
+    }
+
+    .invitation-container {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
+        background-color: rgba(128, 0, 0, 0.7); /* Átlátszó bordó háttér */
+        max-width: 600px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .img {
+        margin-top: 10px;
+        max-width: 20%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .invitation-buttons {
+        margin-top: 20px;
+        text-align: center; /* Gombok középre igazítása */
+    }
+
+    .accept-button, .decline-button {
+        padding: 10px 20px;
+        margin: 0 10px;
+        font-size: 1em;
+        color: #fae6d7;
+        background-color: #721616;
+        border: none;
+        cursor: pointer;
+        display: inline-block; /* Megakadályozza, hogy a gombok a teljes szélességet elfoglalják */
+        transition: background-color 0.3s ease;
+    }
+    .accept-button:hover, .decline-button:hover {
+        background-color: #943434; /* Színváltozás hover állapotban */
+    }
+
+    .rsvp-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .rsvp-button button {
+        padding: 10px 20px;
+        font-size: 1em;
+        color: #fae6d7;
+        background-color: #721616;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .rsvp-button button:hover {
+        background-color: #943434;
+    }
+
+    .event-details {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #event-date, #event-location {
+        font-size: 1.1em;
+        margin: 5px 0;
+    }
+
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
