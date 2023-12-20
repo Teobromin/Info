@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralelogramma Terület Számolás</title>
+    <script src="script_1.js" defer></script>
+</head>
+<body>
+<h1>Paralelogramma Terület Számolás</h1>
+
+<label for="sideA">Oldalhossz a: </label>
+<input type="number" id="sideA" placeholder="Oldalhossz a" />
+<br>
+
+<label for="sideB">Oldalhossz b: </label>
+<input type="number" id="sideB" placeholder="Oldalhossz b" />
+<br>
+
+<label for="height">Magasság m: </label>
+<input type="number" id="height" placeholder="Magasság m" />
+<br>
+
+<label for="angle">Szög γ: </label>
+<input type="number" id="angle" placeholder="Szög γ" />
+<br>
+
+<button onclick="calculateArea()">Számol</button>
+
+<h2>Eredmények:</h2>
+<p id="resultWithHeight"></p>
+<p id="resultWithAngle"></p>
+</body>
+</html>
